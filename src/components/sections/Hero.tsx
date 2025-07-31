@@ -127,7 +127,7 @@ const Hero = () => {
                   <FaUsers className="mr-2 text-accent" />
                   Guests
                 </label>
-                <select className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+                <select className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-black focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
                   <option value="">Select guests</option>
                   <option value="1">1 Guest</option>
                   <option value="2">2 Guests</option>
