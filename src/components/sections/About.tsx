@@ -51,7 +51,7 @@ const About = () => {
             viewport={{ once: true }}
             className="text-3xl md:text-5xl font-bold mb-6"
           >
-            About <span className="gradient-text">WanderLust</span>
+            About <span className="gradient-text">Travelers</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 30 }}

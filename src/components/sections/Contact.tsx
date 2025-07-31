@@ -59,7 +59,7 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       title: 'Email',
-      details: ['info@wanderlust.com', 'support@wanderlust.com'],
+      details: ['info@Travelers.com', 'support@Travelers.com'],
       color: 'secondary'
     },
     {

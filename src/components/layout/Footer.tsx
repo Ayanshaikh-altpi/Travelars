@@ -84,7 +84,7 @@ const Footer = () => {
                 <div className="bg-gradient-hero p-2 rounded-lg shadow-soft">
                   <FaPlane className="text-xl text-white" />
                 </div>
-                <span className="text-2xl font-bold gradient-text">WanderLust</span>
+                <span className="text-2xl font-bold gradient-text">Travelers</span>
               </div>
 
               <p className="text-muted-foreground leading-relaxed">
@@ -101,7 +101,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3 text-sm">
                   <FaEnvelope className="text-secondary" />
-                  <span>info@wanderlust.com</span>
+                  <span>info@Travelers.com</span>
                 </div>
                 <div className="flex items-center gap-3 text-sm">
                   <FaMapMarkerAlt className="text-accent" />
@@ -218,7 +218,7 @@ const Footer = () => {
           className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground"
         >
           <div className="flex items-center gap-1">
-            <span>© 2024 WanderLust. Made with</span>
+            <span>© 2024 Travelers. Made with</span>
             <FaHeart className="text-red-500 text-xs" />
             <span>for travelers worldwide.</span>
           </div>

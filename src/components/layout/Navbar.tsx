@@ -20,7 +20,7 @@ const Navbar = () => {
     // Check for saved theme preference or default to system preference
     const savedTheme = localStorage.getItem('theme');
     const systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    
+
     if (savedTheme === 'dark' || (!savedTheme && systemDark)) {
       setIsDarkMode(true);
       document.documentElement.classList.add('dark');
@@ -30,7 +30,7 @@ const Navbar = () => {
   const toggleDarkMode = () => {
     const newDarkMode = !isDarkMode;
     setIsDarkMode(newDarkMode);
-    
+
     if (newDarkMode) {
       document.documentElement.classList.add('dark');
       localStorage.setItem('theme', 'dark');
@@ -61,11 +61,10 @@ const Navbar = () => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
           ? 'bg-background/95 backdrop-blur-md shadow-card border-b border-border'
           : 'bg-transparent'
-      }`}
+        }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 lg:h-20">
@@ -78,7 +77,7 @@ const Navbar = () => {
               <FaPlane className="text-xl text-white" />
             </div>
             <span className="text-xl lg:text-2xl font-bold gradient-text">
-              WanderLust
+              Travelers
             </span>
           </motion.div>
 
@@ -95,7 +94,7 @@ const Navbar = () => {
                 {item.name}
               </motion.button>
             ))}
-            
+
             {/* Dark Mode Toggle */}
             <motion.button
               onClick={toggleDarkMode}
@@ -134,7 +133,7 @@ const Navbar = () => {
                 <FaMoon className="text-primary" />
               )}
             </motion.button>
-            
+
             <motion.button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               whileTap={{ scale: 0.9 }}

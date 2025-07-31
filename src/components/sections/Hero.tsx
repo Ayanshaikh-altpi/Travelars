@@ -5,7 +5,7 @@ import heroImage from '@/assets/hero-beach.jpg';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home"  className="relative min-h-screen flex items-center justify-center overflow-hidden pb-5 pt-20">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
